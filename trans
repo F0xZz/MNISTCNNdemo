@@ -1,0 +1,7 @@
+train_data = torchvision.datasets.MNIST(
+    root = 'r/home/huzejun/virpy3/tensor/mnist',
+    train = True,
+    transform = torchvision.transforms.ToTensor(), #(0,1)value pic
+    download = False,
+)
+/home/huzejun/virpy3/py3env/lib/python3.5/site-packages/torchvision/datasets
